@@ -14,3 +14,7 @@ repository untuk query dan tabulasi jejama Susenas September 2025
 >> versi 3
 >> tanggal 29-09-2025
 >> jumlah query tambahan : 23
+
+>> versi 4
+>> tanggal 02-10-2025
+>> jumlah query tambahan : 5
