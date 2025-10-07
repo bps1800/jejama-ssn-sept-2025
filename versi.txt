@@ -1,5 +1,5 @@
 # Konfigurasi file query
 [link_query]
 link = "https://github.com/bps1800/jejama-ssn-sept-2025/raw/refs/heads/main/list_query.xls"
-versi = "4"
-tanggal = "2025-10-02"
+versi = "5"
+tanggal = "2025-10-07"
