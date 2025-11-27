@@ -26,7 +26,7 @@ where (R502K5-R502K6)<0
 
 union ALL
 
-select 
+select 'c290b3NlZ2VyYm95b2xhbGk=' as token,
 rt.Prop,rt.Kab,rt.NKS,rt.Nurt,NamaKRT,'0' as R401,'-' as R402,
 'R504jmlK3+K4 : '+ cast((R504JumlahK3+R504JumlahK4) as varchar(50)) as value,
 'SRT05' as QQ,
@@ -35,7 +35,7 @@ from INTI_RT rt
 where (R504JumlahK3+R504JumlahK4)>50000000
 
 union ALL
-select 
+select 'c290b3NlZ2VyYm95b2xhbGk=' as token,
 rt.Prop,rt.Kab,rt.NKS,rt.Nurt,NamaKRT,'0' as R401,'-' as R402,
 'R504jmlK5+K6 : '+ cast((R504JumlahK5+R504JumlahK6) as varchar(50)) as value,
 'SRT06' as QQ,
