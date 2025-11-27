@@ -1,25 +1,25 @@
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K5+r501k7 : '+cast((R501K5+r501k7) as varchar(20))  as value, 'SRT01' as QQ, '' as Catatan
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K5+r501k7 : '+cast((R501K5+r501k7) as varchar(20))  as value, 'SRT01' as QQ, '' as Catatan
 FROM INTI_RT rt
 JOIN INTI_R501 r501 ON rt.id_inti = r501.id_inti
 where (R501K5+r501k7)>75000000
 
 UNION ALL
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K6 : '+cast((R501K6) as varchar(20))  as value, 'SRT02' as QQ, '' as Catatan
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K6 : '+cast((R501K6) as varchar(20))  as value, 'SRT02' as QQ, '' as Catatan
 FROM INTI_RT rt
 JOIN INTI_R501 r501 ON rt.id_inti = r501.id_inti
 where R501K6>4000000
 
 union ALL
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT03' as QQ, '' as Catatan
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT03' as QQ, '' as Catatan
 FROM INTI_RT rt
 JOIN INTI_R502 r502 ON rt.id_inti = r502.id_inti
 where (R502K5-R502K6)>100000000
 
 union ALL
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT04' as QQ, '' as Catatan
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT04' as QQ, '' as Catatan
 FROM INTI_RT rt
 JOIN INTI_R502 r502 ON rt.id_inti = r502.id_inti
 where (R502K5-R502K6)<0
@@ -45,19 +45,19 @@ where (R504JumlahK5+R504JumlahK6)>20000000
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT07' as QQ, '' as Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT07' as QQ, '' as Catatan 
 FROM INTI_RT rt
 where R453K3<r453k4 or R454K3<r454k4 or R455K3<r455k4 
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT08' as QQ, '' as Catatan
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT08' as QQ, '' as Catatan
 FROM INTI_RT rt
 where R457K3<r457k4 or R458K3<r458k4 or R459K3<r459k4 or R460K3<r460k4 or R461K3<r461k4 or R462K3<r462k4 
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT09' as QQ, '' as Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT09' as QQ, '' as Catatan 
 FROM INTI_RT rt
 WHERE 
     (R5051K3>0 and R5051K6=0)
@@ -68,21 +68,21 @@ WHERE
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT10' as QQ, '' as Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT10' as QQ, '' as Catatan 
 FROM INTI_RT rt
 WHERE 
     R470a=5 and R470bi=5 and R470bii=5 and R470biii=5
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT11' as QQ, '' as Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT11' as QQ, '' as Catatan 
 FROM INTI_RT rt
 WHERE 
     R455K3<500000 and R455K3>0
 
 union all
 
-SELECT rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT12' as QQ, '' as Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT12' as QQ, '' as Catatan 
 FROM INTI_RT rt
 WHERE 
     R454K3>2000000 and R454K3>0
