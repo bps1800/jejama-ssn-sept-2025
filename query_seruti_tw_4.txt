@@ -86,3 +86,213 @@ SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.Na
 FROM INTI_RT rt
 WHERE 
     R454K3>2000000 and R454K3>0
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K5+r501k7 : '+cast((R501K5+r501k7) as varchar(20))  as value, 'SRT01' as QQ, Catatan
+FROM INTI_RT rt
+JOIN INTI_R501 r501 ON rt.id_inti = r501.id_inti
+where (R501K5+r501k7)>75000000
+
+UNION ALL
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R501K1 as R401,'ART No : '+cast(R501K1 as varchar(3)) as R402,'R501K6 : '+cast((R501K6) as varchar(20))  as value, 'SRT02' as QQ, Catatan
+FROM INTI_RT rt
+JOIN INTI_R501 r501 ON rt.id_inti = r501.id_inti
+where R501K6>4000000
+
+union ALL
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT03' as QQ, Catatan
+FROM INTI_RT rt
+JOIN INTI_R502 r502 ON rt.id_inti = r502.id_inti
+where (R502K5-R502K6)>100000000
+
+union ALL
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,R502K1 as R401,'ART No : '+cast(R502K1 as varchar(3)) as R402,'R502K5-R502K6 : '+cast((R502K5-R502K6) as varchar(20))  as value, 'SRT04' as QQ, Catatan
+FROM INTI_RT rt
+JOIN INTI_R502 r502 ON rt.id_inti = r502.id_inti
+where (R502K5-R502K6)<0
+
+union ALL
+
+select 'c290b3NlZ2VyYm95b2xhbGk=' as token,
+rt.Prop,rt.Kab,rt.NKS,rt.Nurt,NamaKRT,'0' as R401,'-' as R402,
+'R504jmlK3+K4 : '+ cast((R504JumlahK3+R504JumlahK4) as varchar(50)) as value,
+'SRT05' as QQ,
+Catatan
+from INTI_RT rt
+where (R504JumlahK3+R504JumlahK4)>50000000
+
+union ALL
+select 'c290b3NlZ2VyYm95b2xhbGk=' as token,
+rt.Prop,rt.Kab,rt.NKS,rt.Nurt,NamaKRT,'0' as R401,'-' as R402,
+'R504jmlK5+K6 : '+ cast((R504JumlahK5+R504JumlahK6) as varchar(50)) as value,
+'SRT06' as QQ,
+Catatan
+from INTI_RT rt
+where (R504JumlahK5+R504JumlahK6)>20000000
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT07' as QQ, Catatan 
+FROM INTI_RT rt
+where R453K3<r453k4 or R454K3<r454k4 or R455K3<r455k4 
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,''  as value, 'SRT08' as QQ, Catatan
+FROM INTI_RT rt
+where R457K3<r457k4 or R458K3<r458k4 or R459K3<r459k4 or R460K3<r460k4 or R461K3<r461k4 or R462K3<r462k4 
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT09' as QQ, Catatan 
+FROM INTI_RT rt
+WHERE 
+    (R5051K3>0 and R5051K6=0)
+ OR (R5052K3>0 AND R5052K6=0)
+ OR (R5054K3>0 AND R5054K6=0)
+ OR (R5055K3>0 AND R5055K6=0)
+ OR (R5056K3>0 AND R5056K6=0)
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT10' as QQ, Catatan 
+FROM INTI_RT rt
+WHERE 
+    R470a=5 and R470bi=5 and R470bii=5 and R470biii=5
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT11' as QQ, Catatan 
+FROM INTI_RT rt
+WHERE 
+    R455K3<500000 and R455K3>0
+
+union all
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT12' as QQ, Catatan 
+FROM INTI_RT rt
+WHERE 
+    R454K3>2000000 and R454K3>0
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_01' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=5 and B41K3 IN ('OYEK','TIWUL','TIWUL','TEPUNG SAJIKU','----') 
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_02' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=11 and B41K3 IN ('MANTANG', 'UBI JALAR', 'MATANG', 'ACI', 'LABU KUNING', 'BENTUL', 'BENTUL/TALES') 
+
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_03' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=19 and B41K3 IN ('BAUNG', 'BELUT', 'IKAN WADER', 'LAYANG', 'LELE', 'PATIN', 'PATIN, LELE', 'TERI', 'WADER', 'UDANG', 'UDANG KALI', 'UDANG REBON', 'UDANG SUNGAI', 'UDANG TAMBAK', 'VANAME', 'KEPITING', 'IKAN ASIN') 
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_04' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=25 and B41K3 IN ('TERI TAWAR', 'TERI')     
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_05' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=32 and B41K3 IN ('NUGET AYAM', 'NAGET', 'SEMPOL', 'NUGGET SEMPOL')
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_06' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=43 and B41K3 IN ('KEDELAI', 'SUSU INDOMILK', 'SUSU KEDELAI', 'SUSU ANLINE', 'SUSU FITGOL KOTAK', 'SUSU HAMIL SGM BUNDA', 'ENERGEN', '3 BGIN', 'BMG 2 KOTAK', 'BR BMG')
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_07' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=56 and B41K3 IN ('POHON TALAS', 'POHON TALAS/LOMPONG', 'DAUN BAWANG', 'DAUN KATU', 'DAUN KATUK', 'DAUN KATUK, KEMANGI', 'DAUN KELOR', 'DAUN KEMANGI', 'DAUN SINGKONG', 'DAUN SINGKONG SENDIRI', 'KANGKUNG', 'KATU', 'KATUK', 'KELOR', 'KEMANGI', 'KEMANGI KATU', 'KOL.', 'PAKIS', 'SALADA, KEMANGI, TERONG UNGU', 'SELADA', 'SELADA AIR', 'GAMBAS', 'GAMBAS, LABU SIAM', 'GORI', 'KATES MUDA', 'KATES SERUT', 'KATES, KEMBANG KATES', 'LABU SIAM', 'LABU SIEM', 'LABUSIAM', 'NANGKA MUDA', 'OYONG', 'PEPAYA', 'PEPAYA MUDA', 'RAMPAI', 'TERONG', 'TERONG ,LABU SIAM', 'TERONG BULAT', 'TERONG GAMBAS', 'TERONG OYONG', 'TERONG UNGU', 'TERONG, LABU', 'KACANG KORO', 'KORO', 'BROKOLI, DAUN KEMANGI, JAMUR', 'BROKOLI, KEMANGI, PARE', 'CABAI', 'CABAI RANAU', 'CABAI TAMANAN', 'CABE PLETOK', 'CABE PLETOKK', 'DAUN KATUK, DAUN TANGKIL', 'DAUN SINGKONG, PARE', 'DAUN SINGKONG, TERONG', 'GAMBAS,JANTUNG PISANG,DAUN SINGKONG KANGKUNG', 'GENEJER', 'GENEJR', 'GENJU', 'KEMANGI, KECAMBAH', 'KEMANGI, KEMBANG KATES', 'KEMYU', 'KENTANG, KEMBANG KOL, JAMUR, SALADA', 'KULIT TANGKIL, TOGE, KOL', 'LABU SIYAM, PARE', 'LABU SIYAM3', 'LABU, KELOR', 'LABU, TAUGE', 'LABUSIAM, TAUGE', 'PAKCOY, DAUN SINGKONG, TERONG', 'PARE TERONG', 'PARE, KEMBANG KATES,TERONG, PEPAYA', 'PARE, LABU', 'PEPAYA MUDA, PARE', 'RERONG', 'SAYUR', 'TAUGE, TERONG', 'TEMYU', 'TEPUNG', 'TERONG DAN DAUN KEMANGI', 'TERONG, DAUN SINGKONG, CEMPOKAK', 'TERONG, PARE', 'WALOH', 'WELUH')
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_09' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=69 and B41K3 IN ('CURAH', 'KELAPA', 'KELAPA SANTAN', 'PERASAN', 'SANTAN', 'SANTAN CAIR', '---', '----')
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_10' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=75 and B41K3 IN ('KOPI SASET', 'WHITE COFFEE', 'KOPI GULA AREN', 'KRIMER', 'GULA AREN', 'KOPI', 'TORABIKA')
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_11' as QQ, Catatan 
+FROM INTI_RT rt JOIN MAK_B41 mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41k1=88 and B41K3 IN ('KERUPUK GADUNG', 'OPAK')
+    
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_12' as QQ, Catatan  
+FROM INTI_RT rt JOIN MAK_B41ART mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41artk1=95 and B41ARTK3 IN ('ROTI BAKAR', 'CENIL', 'LEMET', 'MARTABAK', 'MARTABAK MINI', 'PANCONG', 'BAKWAN', 'TAHU', 'TAHU ISI', 'KELANTING', 'KEMPLANG', 'KERUPUK', 'NUGGET', 'SOSIS', 'SOSIS GORENG', 'UDANG KEJU GORENG', 'BATAGOR', '1ORIBU')
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_13' as QQ, Catatan  
+FROM INTI_RT rt JOIN MAK_B41ART mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41artk1=113 and B41ARTK3 IN ('BUAH BUAHAN','ROTI BAKAR','MARTABAK MANIS','MARTABAK MINI','MARTABAK TELUR','PEMPEK SELEM','PERKEDEL','BUBUR KACANG HIJAU','BAKMI PECEL','PECEL','MBG','NASI MBG','NASI PADANG','NASI RAMES','NASI TIM','NASI UDUK','NASI URAP','RICE BOWL','BAKMI','BAKMIE','BAKSO','BAKSO MALANG','MI AYAM','MIE AYAM','MIE GELAS','MISO','SEBALK','SEBLAK','SEBLAK PRASMANAN','SEBLAK, CIRENG','POP MIE','PERMEN','CEMILAN KEMASAN SNACK','CHIKI SNACK','SAMBAL IKAN','SAMBEL IKAN','AYAM CIKEN','AYAM KRISPI','CIKEN AYAM','BAKLOR','BAKSO BAKAR','BAKSO KUAH','BASRENG','CILOK','CILOK KUAH','CILOK, BATAGOR','CILOR','CILUNG','CIMOL','CIRENG','COKLAT','CREPS','DIMSUM','EMPEK-EMPEK','ENERGEN','ES TEH','ES TEH MANIS','ES TELER DAN SEBLAK','ES TUNG','GATOT','GATOT CENIL','GEPREK,SEBLAK','HAMBURGER','IKAN SAMBAL','JASUKE','KEMASAN SNACK MBG','KEMBANG TELOR','KERUPUK','KETAN','KETAN KUKUS','KOLAK','KREPES','KRUPUK MAJANG','KUE PUTU','MACELOR','MARIMAS','MARTABAK','SEMPOL','SEKUTENG','PC LELE','SNACK')
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_14' as QQ, Catatan  
+FROM INTI_RT rt JOIN MAK_B41ART mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41artk1=120 and B41ARTK3 IN ('BUBUR SUMSUM','TEH RIO','ES TEA','ES TEH','ES TEH BUAT','ES TEH JUMBO','ES TEH MANIS','ES TEH SOLO','ES TEH TARIK','ES TEH UPET','JUMBO','ES SUSU','ES SUSU KOPI','KOPI SUSU','TEH','TEH BOBA','TEH BOTOL','TEH JUM BO','TEH JUMBO','TEH MANIS','AICE','ES POTONG','ES TUNG','ES TUNG TUNG','MIXUE','MOMOYO','TUNG','TUNG-TUNG','BUAH','BUAH CAMPUR','ES TEH , MARIMAS','ES TEH DAN ES JERUK','ES TEH DAN JERUK','ES TEH, ES JERUK','ES TEH, ES KELAPA','ES TEH+ ES TELER','POP ICE, ES TEH','POP ICE, TEH','POP ICE, TEH JUMBO','TEH JUMBO, BOBA','TEH JUMBO, MARIMAS','TEH JUMBO, TEA JUS','TEH, GOOD DAY','TEH,CENDOL')
+    
+
+union all 
+
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_15' as QQ, Catatan  
+FROM INTI_RT rt JOIN MAK_B41ART mak
+on rt.id_inti=mak.id_mak 
+where 
+    b41artk1=121 and B41ARTK3 IN ('SUSU SODA','ES TELER','MARIMAS')
+    
