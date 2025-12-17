@@ -89,7 +89,7 @@ WHERE
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_01' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-01' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -97,7 +97,7 @@ where
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_02' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-02' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -106,7 +106,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_03' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-03' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -115,7 +115,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_04' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-04' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -124,7 +124,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_05' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-05' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -132,7 +132,7 @@ where
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_06' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-06' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -141,7 +141,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_07' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-07' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -150,7 +150,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_09' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-09' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -158,7 +158,7 @@ where
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_10' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-10' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -166,7 +166,7 @@ where
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT_Lainnya_11' as QQ, Catatan 
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,'0' as R401,'-' as R402,'-'  as value, 'SRT-Lainnya-11' as QQ, Catatan 
 FROM INTI_RT rt JOIN MAK_B41 mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -174,7 +174,7 @@ where
     
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_12' as QQ, Catatan  
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT-Lainnya-12' as QQ, Catatan  
 FROM INTI_RT rt JOIN MAK_B41ART mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -183,7 +183,7 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_13' as QQ, Catatan  
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT-Lainnya-13' as QQ, Catatan  
 FROM INTI_RT rt JOIN MAK_B41ART mak
 on rt.id_inti=mak.id_mak 
 where 
@@ -192,16 +192,16 @@ where
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_14' as QQ, Catatan  
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT-Lainnya-14' as QQ, Catatan  
 FROM INTI_RT rt JOIN MAK_B41ART mak
 on rt.id_inti=mak.id_mak 
 where 
-    b41artk1=120 and B41ARTK3 IN ('BUBUR SUMSUM','TEH RIO','ES TEA','ES TEH','ES TEH BUAT','ES TEH JUMBO','ES TEH MANIS','ES TEH SOLO','ES TEH TARIK','ES TEH UPET','JUMBO','ES SUSU','ES SUSU KOPI','KOPI SUSU','TEH','TEH BOBA','TEH BOTOL','TEH JUM BO','TEH JUMBO','TEH MANIS','AICE','ES POTONG','ES TUNG','ES TUNG TUNG','MIXUE','MOMOYO','TUNG','TUNG-TUNG','BUAH','BUAH CAMPUR','ES TEH , MARIMAS','ES TEH DAN ES JERUK','ES TEH DAN JERUK','ES TEH, ES JERUK','ES TEH, ES KELAPA','ES TEH+ ES TELER','POP ICE, ES TEH','POP ICE, TEH','POP ICE, TEH JUMBO','TEH JUMBO, BOBA','TEH JUMBO, MARIMAS','TEH JUMBO, TEA JUS','TEH, GOOD DAY','TEH,CENDOL')
+    b41artk1=120 and B41ARTK3 IN ('BUBUR SUMSUM','TEH RIO','ES TEA','ES TEH','ES TEH BUAT','ES TEH JUMBO','ES TEH MANIS','ES TEH SOLO','ES TEH TARIK','ES TEH UPET','JUMBO','ES SUSU','ES SUSU KOPI','KOPI SUSU','TEH','TEH BOBA','TEH BOTOL','TEH JUM BO','TEH JUMBO','TEH MANIS','AICE','ES POTONG','ES TUNG','ES TUNG TUNG','MIXUE','MOMOYO','TUNG','TUNG-TUNG','ES TEH , MARIMAS','ES TEH DAN ES JERUK','ES TEH DAN JERUK','ES TEH, ES JERUK','ES TEH, ES KELAPA','ES TEH+ ES TELER','POP ICE, ES TEH','POP ICE, TEH','POP ICE, TEH JUMBO','TEH JUMBO, BOBA','TEH JUMBO, MARIMAS','TEH JUMBO, TEA JUS','TEH, GOOD DAY','TEH,CENDOL')
     
 
 union all 
 
-SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT_Lainnya_15' as QQ, Catatan  
+SELECT 'c290b3NlZ2VyYm95b2xhbGk=' as token,  rt.Prop,rt.Kab,rt.NKS,rt.Nurt,rt.NamaKRT,id_art as R401,concat('ART No. ',id_art) as R402,'-'  as value, 'SRT-Lainnya-15' as QQ, Catatan  
 FROM INTI_RT rt JOIN MAK_B41ART mak
 on rt.id_inti=mak.id_mak 
 where 
