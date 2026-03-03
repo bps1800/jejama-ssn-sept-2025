@@ -1,3 +1,18 @@
+# jejama-ssn-maret-2026
+repository untuk query dan tabulasi jejama Susenas Maret 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
 # jejama-ssn-sept-2025
 repository untuk query dan tabulasi jejama Susenas September 2025
 
